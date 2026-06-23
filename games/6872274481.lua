@@ -3620,7 +3620,7 @@ run(function()
 	})
 	FontOption = NameTags:CreateFont({
 		Name = 'Font',
-		Default = 'Arial',
+		Blacklist = 'Arial',
 		Function = function()
 			if NameTags.Enabled then
 				NameTags:Toggle()
@@ -6660,7 +6660,7 @@ run(function()
 	})
 	ReachDisplay:CreateFont({
 		Name = 'Font',
-		Default = 'Gotham',
+		Blacklist = 'Gotham',
 		Function = function(val)
 			label.FontFace = val
 		end
